@@ -1,0 +1,185 @@
+/* /* @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} */
+
+
+/* body {
+    background: rgb(253, 245, 245);
+    min-height: 200vh;
+} */
+
+
+/* header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 10000;
+}
+
+header.sticky {
+    padding: 5px 100px;
+    background: #fff;
+}
+
+header .log {
+    position: relative;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+header.sticky .log,
+header.sticky ul li a {
+    color: #000;
+} */
+
+
+/* .post-contaner {
+    margin-top: 10px;
+}
+
+.post-contaner .post .image img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.post-contaner .post .content {
+    padding: 0 20px;
+}
+
+.post-contaner .post .content .date {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #666;
+}
+
+.post-contaner .post .content .title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.post-contaner .post:hover .title {
+    text-decoration: underline;
+}
+
+.post-contaner .post .content p {
+    font-size: 14px;
+    padding: 5px 0;
+    color: #666;
+}
+
+.post-contaner .post .content .link {
+    display: block;
+    color: tomato;
+    margin-top: 10px;
+}
+
+.post-contaner .post .content .link:hover {
+    color: #333;
+} */
+
+.owl-carousel {
+    background-color: #fff !important;
+}
+
+.post-contaner {
+    margin-top: 100px;
+}
+
+.post-contaner .post {
+    width: 300px;
+    background: #fff;
+    /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); */
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.post-contaner .post .image img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.post-contaner .post .content {
+    padding: 0 20px;
+}
+
+.post-contaner .post .content .date {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #666;
+}
+
+.post-contaner .post .content .title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.post-contaner .post:hover .title {
+    text-decoration: underline;
+}
+
+.post-contaner .post .content p {
+    font-size: 14px;
+    padding: 5px 0;
+    color: #666;
+}
+
+.post-contaner .post .content .link {
+    display: block;
+    color: tomato;
+    margin-top: 10px;
+}
+
+.post-contaner .post .content .link:hover {
+    color: #333;
+}

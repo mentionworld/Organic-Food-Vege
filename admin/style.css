@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background: rgb(187, 187, 245);
+    /* background-image: linear-gradient(rgba(0, 0, 100, 0.1), rgba(0, 0, 100, 0.1)), url("img/veg3.jpg");*/
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    width: 450px;
+    height: 450px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+    perspective: 1000px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.inner-box {
+    position: relative;
+    width: 100%;
+    height: 110%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 100, 0.8), rgba(0, 0, 100, 0.8)), url("img/veg1.jpg");
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+
+.card h2 {
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 20px 0;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-btn {
+    position: relative;
+}
+
+.submit-btn::after {
+    content: '\27a4';
+    color: #333;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+
+.input-box:hover {
+    background: rgba(74, 248, 182, 0.8);
+}
+
+.submit-btn:hover {
+    background: rgba(253, 93, 93, 0.26);
+}
+
+.field-error {
+    width: 100%;
+    height: 30px;
+    background: black;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    background: transparent;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>
+        Organic Farm
+    </title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="owltry.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!---------- Header Section Open---------->
+    <header>
+        <a href="" class="logo">Organic Fruits </a>
+
+        <ul id="Menuitems">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="product.html">Products</a></button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Account</a></li>
+        </ul>
+        <a href="cart.html"> <img src="temp/cart.png" width="30px" height="30px"></a>
+        <img src="temp/menu.png" class="menu-icon" id="img" onclick="menutoggle()">
+    </header>
+    <section class="slider">
+        <div class="slide_item fade">
+            <div class="row ">
+                <div class="col-2">
+                    <h1>Give Your Workout<br> A New Style!</h1>
+                    <p>Success isn't always about greatness. It's about consistency. Consistent <br>hard work gains success. Greatness will come.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="app1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slide_item fade">
+            <div class="row ">
+                <div class="col-2">
+                    <h1>Give Your Workout<br> A New Style!</h1>
+                    <p>Success isn't always about greatness. It's about consistency. Consistent <br>hard work gains success. Greatness will come.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="gps1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slide_item fade">
+            <div class="row ">
+                <div class="col-2">
+                    <h1>Give Your Workout<br> A New Style!</h1>
+                    <p>Success isn't always about greatness. It's about consistency. Consistent <br>hard work gains success. Greatness will come.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="gps3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div><br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+    <!----------------Header Section Ended----------------->
+
+
+    <!---------------Featured  Categories section---------->
+
+    <div class="post-contaner owl-carousel">
+        <div class="post">
+            <div class="image">
+                <img src="bg.jpg">
+            </div>
+
+        </div>
+        <div class="post">
+            <div class="image">
+                <img src="bg.jpg">
+            </div>
+            <div class="content">
+                <div class="date"><i class="fas fa-calender-alt"></i>jan 1,2020 </div>
+                <a href="#" class="title"> Post Title GOes here</a>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique efficitur tellus vel commodo. Etiam malesuada neque nec tortor egestas fermentum. Integer egestas euismod neque, vel interdum sapien bibendum ut. Vestibulum ante ipsum primis in faucibus
+                    orci
+                </p>
+                <a href="#" class="link">Read more</a>
+            </div>
+        </div>
+        <div class="post">
+            <div class="image">
+                <img src="bg.jpg">
+            </div>
+            <div class="content">
+                <div class="date"><i class="fas fa-calender-alt"></i>jan 1,2020 </div>
+                <a href="#" class="title"> Post Title GOes here</a>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique efficitur tellus vel commodo. Etiam malesuada neque nec tortor egestas fermentum. Integer egestas euismod neque, vel interdum sapien bibendum ut. Vestibulum ante ipsum primis in faucibus
+                    orci
+                </p>
+                <a href="#" class="link">Read more</a>
+            </div>
+        </div>
+        <div class="post">
+            <div class="image">
+                <img src="bg.jpg">
+            </div>
+            <div class="content">
+                <div class="date"><i class="fas fa-calender-alt"></i>jan 1,2020 </div>
+                <a href="#" class="title"> Post Title GOes here</a>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique efficitur tellus vel commodo. Etiam malesuada neque nec tortor egestas fermentum. Integer egestas euismod neque, vel interdum sapien bibendum ut. Vestibulum ante ipsum primis in faucibus
+                    orci
+                </p>
+                <a href="#" class="link">Read more</a>
+            </div>
+        </div>
+        <div class="post">
+            <div class="image">
+                <img src="bg.jpg">
+            </div>
+            <div class="content">
+                <div class="date"><i class="fas fa-calender-alt"></i>jan 1,2020 </div>
+                <a href="#" class="title"> Post Title GOes here</a>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique efficitur tellus vel commodo. Etiam malesuada neque nec tortor egestas fermentum. Integer egestas euismod neque, vel interdum sapien bibendum ut. Vestibulum ante ipsum primis in faucibus
+                    orci
+                </p>
+                <a href="#" class="link">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="categories  owl-carousel">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="temp/4.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="temp/4.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="temp/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-------------ends of Featured Categories section ------------->
+    <!------------Featured Products--------------------------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product_detail.html"> <img src="temp/4.jpg" alt=""></a>
+                <h4>Lorem Ipsum </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="product_detail.html" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <a href="product_detail.html"> <img src="temp/4.jpg" alt=""></a>
+                <h4>Lorem Ipsum </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="product_detail.html" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <a href="product_detail.html"> <img src="temp/4.jpg" alt=""></a>
+                <h4>Lorem Ipsum </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="product_detail.html" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <a href="product_detail.html"> <img src="temp/4.jpg" alt=""></a>
+                <h4>Lorem Ipsum </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="product_detail.html" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="temp/4.jpg">
+                <h4>Lorem Ipsum</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="temp/4.jpg">
+                <h4>Lorem Ipsum</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="temp/4.jpg">
+                <h4>Lorem Ipsum</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="temp/4.jpg">
+                <h4>Lorem Ipsum</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="temp/4.jpg">
+                <h4>Lorem Ipsum</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="temp/4.jpg">
+                <h4>Lorem Ipsum</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="temp/4.jpg">
+                <h4>Lorem Ipsum</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="temp/4.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <div class="by">
+                    <p>$50.0</p>
+                    <a href="" class="btn1">View More &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------Ends of Featured Products-------->
+
+    <!--------Testimonial--------------->
+    <div class="Testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="temp/4.jpg">
+                    <h3>Sea Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="temp/4.jpg">
+                    <h3>mikka lorem</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="temp/4.jpg">
+                    <h3>Seam karan</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------ end of testimonial------------>
+    <!------------footer------------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Useful Links</h3>
+                    <ul>
+                        <li>Coupon</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <h1>Organic Fruits & Vegetable</h1>
+                    <h4>It is difficult to get Organic food at most restaurants,<br>So when possible,eat at home .When not, do your best.</h4>
+                    <h3>Suzanne Somers</h3>
+                </div>
+                <div class="footer-col-3">
+                    <h3> Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>You Tube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020- </p>
+        </div>
+    </div>
+    <!------- js for menu toggle--------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
